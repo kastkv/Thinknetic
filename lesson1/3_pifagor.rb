@@ -15,11 +15,11 @@ right_triangle = cathetus1**2 + cathetus2**2 == hypotenuse**2
 if cathetus1 == hypotenuse
   puts "Треугольник равнобедренный и равносторонний, но не прямоугольный."
 elsif right_triangle && cathetus1 == cathetus2
-	puts "Треугольник прямоугольный и равнобедренный."
+  puts "Треугольник прямоугольный и равнобедренный."
 elsif right_triangle
-	puts "Треугольник прямоугольный."
+  puts "Треугольник прямоугольный."
 else
-	puts "Треугольник не прямоугольный"
+    puts "Треугольник не прямоугольный"
 end
 
 =begin

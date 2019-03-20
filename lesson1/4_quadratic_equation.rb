@@ -9,8 +9,8 @@ c = gets.to_f
 
 d = (b**2) - (4 * a * c)
 
-if d < 0 
-	puts "Дискрименант D = #{d}. Корней нет."
+if d < 0
+  puts "Дискрименант D = #{d}. Корней нет."
 elsif d > 0
   s = Math.sqrt(d)
   x1 = (-b + s)/(2.0 * a)

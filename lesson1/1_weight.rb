@@ -8,7 +8,6 @@ weight = heigth - 110
 
 if weight < 0
   puts "Hi #{name}! Your weigth #{weight}. Your weight is already optimal"
-
 else
   puts "Hi #{name}! Your weigth #{weight}."
 end
