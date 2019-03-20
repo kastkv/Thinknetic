@@ -19,7 +19,7 @@ elsif right_triangle && cathetus1 == cathetus2
 elsif right_triangle
   puts "Треугольник прямоугольный."
 else
-    puts "Треугольник не прямоугольный"
+  puts "Треугольник не прямоугольный"
 end
 
 =begin
